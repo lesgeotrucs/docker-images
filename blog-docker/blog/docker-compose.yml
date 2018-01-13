@@ -1,0 +1,28 @@
+version: '2'
+
+services:
+  ghost:
+    image: ghost:1-alpine
+    volumes:
+      - ./content:/var/lib/ghost/content
+    ports:
+     - "2368:2368"
+    restart: always
+
+  buster:
+    image: raccoony/buster
+    links:
+      - ghost
+    depends_on:
+      - ghost
+    env_file: .env
+    environment:
+      - EMAIL=lesgeotrucs@gmail.com
+      - LOGNAME=lesgeotrucs
+      - PUBLIC_URL=${GITHUB_ID}.github.io
+      - GIT_REPO=git@github.com:${GITHUB_ID}/${GITHUB_ID}.github.com.git
+    volumes:
+      - ~/.ssh/geotrucs_pub.id_rsa:/root/.ssh/id_rsa
+      - ~/.ssh/known_hosts:/root/.ssh/known_hosts
+    ports:
+      - "9000:9000"

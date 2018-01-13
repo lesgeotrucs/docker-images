@@ -1,0 +1,8 @@
+{"name":"Log","hostname":"11f2df09c32f","pid":1,"level":30,"msg":"Ghost is running in production... ","time":"2018-01-12T20:49:02.575Z","v":0}
+{"name":"Log","hostname":"11f2df09c32f","pid":1,"level":30,"msg":"Ghost is running in production... ","time":"2018-01-12T20:49:02.576Z","v":0}
+{"name":"Log","hostname":"11f2df09c32f","pid":1,"level":30,"msg":"Your blog is now available on http://localhost:2368/ ","time":"2018-01-12T20:49:02.582Z","v":0}
+{"name":"Log","hostname":"11f2df09c32f","pid":1,"level":30,"msg":"Ctrl+C to shut down ","time":"2018-01-12T20:49:02.584Z","v":0}
+{"name":"Log","hostname":"11f2df09c32f","pid":1,"level":30,"msg":"Your blog is now available on http://localhost:2368/ ","time":"2018-01-12T20:49:02.583Z","v":0}
+{"name":"Log","hostname":"11f2df09c32f","pid":1,"level":30,"msg":"Ctrl+C to shut down ","time":"2018-01-12T20:49:02.585Z","v":0}
+{"name":"Log","hostname":"11f2df09c32f","pid":1,"level":30,"msg":"Ghost boot 5.912s ","time":"2018-01-12T20:49:02.592Z","v":0}
+{"name":"Log","hostname":"11f2df09c32f","pid":1,"level":30,"msg":"Ghost boot 5.912s ","time":"2018-01-12T20:49:02.592Z","v":0}
